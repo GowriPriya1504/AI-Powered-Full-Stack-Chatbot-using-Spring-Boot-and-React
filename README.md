@@ -1,5 +1,4 @@
-# spring-boot-ai-chatbot
-Your friendly personal assistant powered by OpenAI
+# AI Powered Full Stack Using Spring Boot and React
 
 Here’s a detailed README file template for your project. This template covers the main aspects of your project, including an overview, installation steps, usage instructions, and more. You can customize it further according to your project’s specifics.
 
@@ -63,7 +62,7 @@ Before you begin, ensure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/vikasrajputin/spring-ai-chatbot.git
+git clone https://github.com/GowriPriya1504/-AI-Powered-Full-Stack-Chatbot-using-Spring-Boot-and-React
 cd spring-ai-chatbot
 ```
 
@@ -158,38 +157,3 @@ The backend provides the following key API endpoints:
       "message": "Explain how to use OpenAI with Spring Boot"
     }
     ```
-
-## Customization
-
-### Modifying the Frontend
-
-- The React frontend is located in the `chatbot-ui/` directory.
-- You can customize the UI by editing the components in the `src/` directory.
-- Update the styling by modifying the `Chatbot.css` file.
-
-### Modifying the Backend
-
-- The Spring Boot backend is located in the `spring-boot-ai-chatbot/` directory.
-- You can customize the AI responses by modifying the services and controllers in the `src/main/java` directory.
-- Update the Spring AI configuration in the `application.yml` file.
-
-## Deployment
-
-### Docker Deployment on Local
-
-To deploy the application to a local environment, you can use the Docker images built with the provided Dockerfiles.
-
-1. **Build the Docker images**:
-
-    ```bash
-    docker-compose build
-    ```
-
-### Manual Deployment (Without Docker)
-
-- **Backend**: Deploy the Spring Boot jar to a server or cloud service (e.g., AWS EC2, Heroku).
-- **Frontend**: Build the React app (`npm run build`) and serve it using a web server (e.g., Nginx, Apache).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
